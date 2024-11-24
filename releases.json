@@ -4,9 +4,43 @@
       "latest": "0.7",
       "ranges": {
         "0.7": {
-          "latest": "0.7.6",
+          "latest": "0.7.8",
           "is_prerelease": false,
           "versions": {
+            "0.7.8": {
+              "release_url": "https://github.com/nextest-rs/mukti/releases/mukti-bin-0.7.8",
+              "status": "active",
+              "locations": [
+                {
+                  "target": "x86_64-unknown-linux-musl",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/mukti/releases/download/mukti-bin-0.7.8/mukti-bin-0.7.8-x86_64-unknown-linux-musl.tar.gz",
+                  "checksums": {
+                    "blake2b": "752a7c5ceccaad61597a73311e6ccbc618f340677aca66b64443edd1744da7c1d1e7b63648b1bef8d0740312e92b3b6339378df9198d728425d0bf4e0afcd0df",
+                    "sha256": "4748640d25d114e4eae764b676a317e4da6254cc33f45faa6c95197301dd0673"
+                  }
+                },
+                {
+                  "target": "x86_64-pc-windows-msvc",
+                  "format": "tar.gz",
+                  "url": "https://github.com/nextest-rs/mukti/releases/download/mukti-bin-0.7.8/mukti-bin-0.7.8-x86_64-pc-windows-msvc.tar.gz",
+                  "checksums": {
+                    "blake2b": "d541d91d424ee0cf260023489c9aef522314e3e566ba5b33547031a162530d05462df5594299d54a621a16881037ad4fd4f5c000aca61ae93cbbe3749b4304b9",
+                    "sha256": "15388f3477272fa00e8e6e98b6258370523ece005fd3f092344ab47af32ba1b9"
+                  }
+                },
+                {
+                  "target": "x86_64-pc-windows-msvc",
+                  "format": "zip",
+                  "url": "https://github.com/nextest-rs/mukti/releases/download/mukti-bin-0.7.8/mukti-bin-0.7.8-x86_64-pc-windows-msvc.zip",
+                  "checksums": {
+                    "blake2b": "f31e0fabbdc9e70934548ca54fd3cc233ca06cfa21955cb45466110df774ba7e1d7c1dacc5635933c5264e384c630c3e2e3d77a13a2c264b6cc67d80b061193a",
+                    "sha256": "48b994ca68f10993d4189ecdd5658d733bedd66552cc2616a754577431062b4f"
+                  }
+                }
+              ],
+              "metadata": null
+            },
             "0.7.6": {
               "release_url": "https://github.com/nextest-rs/mukti/releases/mukti-bin-0.7.6",
               "status": "active",
